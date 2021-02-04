@@ -59,7 +59,7 @@ class EventsShow extends Component {
             <div>
               <RaisedButton label='Submit' type='submit' style={style} disabled={pristine || submitting || invalid} />
               <RaisedButton label='Cancel' style={style} containerElement={<Link to='/' />} />
-              <RaisedButton label='Delete' style={style} onCLick={this.onDeleteClick} />
+              <RaisedButton label='Delete' style={style} onClick={this.onDeleteClick} />
             </div>
           </div>
         </form>
