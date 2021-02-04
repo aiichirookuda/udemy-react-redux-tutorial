@@ -39,12 +39,12 @@ class EventsIndex extends Component {
       position: 'fixed',
       right: 12,
       bottom: 12
-    }
+    };
 
     return (
       <>
         <FloatingActionButton style={style} containerElement={<Link to='/events/new' />}>
-          +
+          <ContentAdd />
         </FloatingActionButton>
 
         <Table>
